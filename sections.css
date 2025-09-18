@@ -11,6 +11,17 @@ main {
         position: relative;
         border-radius: 4px;
         overflow: hidden;
+        
+        figcapiton{
+            position: absolute;
+            bottom: 0;
+            padding: 24px;
+
+            h2{
+                margin: 8px;
+            }
+        }
+
         &::before{
             content: "";
             position: absolute;

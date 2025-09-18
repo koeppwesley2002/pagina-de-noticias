@@ -49,6 +49,14 @@ h1, h2, h3{
     margin-inline: auto;
     
 }
+.content-tag{
+    display: inline-block;
+    background-color: var(--brand-color-dark);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font: 500px 10px/1.2 var(--font-family);
+    text-transform: uppercase;
+}
 
 
 

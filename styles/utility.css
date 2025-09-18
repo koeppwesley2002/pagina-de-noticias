@@ -12,3 +12,15 @@
 .gap-16{
     gap: 16px;
 }
+.text-2xl{
+    font: var(--h1);
+}
+text-2xl{
+    font: var(--h2);
+}
+text-2xl{
+    font: var(--h3);
+}
+.text.sn{
+    font: var(--text-sn);
+}
