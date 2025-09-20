@@ -1,5 +1,11 @@
 #primary {
     padding-block: 20px;
+    
+    div{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 
     div {
         display: flex;
@@ -7,7 +13,7 @@
         gap: 8px;
     }
 
-    /*Restings CSS*/
+    /*Nestings CSS*/
 
     div:nth-child(2){
         margin-inline: auto;
