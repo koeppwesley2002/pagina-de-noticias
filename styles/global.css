@@ -25,7 +25,7 @@
 
 body {
     color: var(--text-color-primary);
-    background: var(--bg-color);
+    background-color: var(--bg-color);
     font: var(--text);
 }
 
@@ -44,19 +44,23 @@ h1, h2, h3{
 }
 
 img {
-    max-width: 100px;
+    max-width: 100%;
 }
+
 main {
-    margin-top: 40px;
+    margin-block: 40px;
+    row-gap: 80px;
+    column-gap: 32px;
+    grid-template-areas: "featured featured" "weekly weekly" "ai aside";
+    grid-template-columns: 2fr 1.5fr;
 }
 
 .container {
     max-width: 1280px;
     margin-inline: auto;
-    padding-inline: 32px;
-
-    
+    padding-inline: 32px;   
 }
+
 .content-tag{
     display: inline-block;
     background-color: var(--brand-color-dark);
